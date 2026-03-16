@@ -4,15 +4,19 @@
   <img src="https://img.shields.io/badge/CLI--first-black?style=flat-square&logo=gnometerminal&logoColor=white" alt="CLI-first">
 </p>
 
-# Hey, I'm CyperX 👋
+# Yooo, I'm CyperX 👋
+Having fun playing around with open source AI tools.
 
-I build developer tools around **[OpenClaw](https://github.com/openclaw/openclaw)** — an open-source AI agent platform for orchestrating multiple coding agents, models, and workflows from the terminal.
+- **[dotfiles](https://github.com/cyperx84/dotfiles)** — macOS dev environment (Ghostty, tmux, Neovim, Aerospace)
 
-My work lives at the intersection of **multi-model AI orchestration** and **CLI-first developer tooling**. If it runs in tmux, speaks Go, and talks to LLMs, I'm probably interested.
+I build stuff around 
+**[OpenClaw](https://github.com/openclaw/openclaw)**
+claude code 
+
 
 ---
 
-## 🧠 OpenClaw Ecosystem
+## 🧠 My little OpenClaw Ecosystem
 
 Tools I've built and maintain around OpenClaw:
 
@@ -73,37 +77,8 @@ Homebrew tap for all my tools. One tap, clean installs.
 
 ---
 
-## 🔧 How It Fits Together
-
-```
-┌──────────────────────────────────────────────────┐
-│                    OpenClaw                       │
-│           (AI agent orchestration)                │
-│                                                   │
-│  ┌──────────┐  ┌──────────┐  ┌──────────────┐   │
-│  │clawforge │  │multiplan │  │  clwatch     │   │
-│  │ agent    │  │ 4-model  │  │  changelog   │   │
-│  │ swarms   │  │ planning │  │  tracker     │   │
-│  └──────────┘  └──────────┘  └──────────────┘   │
-│  ┌──────────┐  ┌──────────┐  ┌──────────────┐   │
-│  │content-  │  │changelogs│  │  homebrew    │   │
-│  │breakdown │  │   .info  │  │    tap       │   │
-│  └──────────┘  └──────────┘  └──────────────┘   │
-└──────────────────────────────────────────────────┘
-        ↕               ↕               ↕
-     Claude         Gemini          Codex          GLM-5
-```
-
-**multiplan** generates plans, **clawforge** executes them with agent swarms, **clwatch** keeps track of upstream changes, and **content-breakdown** turns any content into structured action.
-
----
-
 ## 🛠 Other Projects
 
-- **[claude-skills-mental-models](https://github.com/cyperx84/claude-skills-mental-models)** — Mental models & cognitive frameworks as Claude Code skills
-- **[openclaw-tui-dashboard](https://github.com/cyperx84/openclaw-tui-dashboard)** — TUI dashboard for OpenClaw monitoring
-- **[tts-toolkit](https://github.com/cyperx84/tts-toolkit)** — Extensible text-to-speech toolkit with voice cloning
-- **[dotfiles](https://github.com/cyperx84/dotfiles)** — macOS dev environment (Ghostty, tmux, Neovim, Aerospace)
 
 ---
 
@@ -116,17 +91,8 @@ brew tap cyperx84/tap
 brew install clawforge multiplan clwatch content-breakdown
 ```
 
-Or individually via `go install`:
-
-```bash
-go install github.com/cyperx84/clawforge@latest
-go install github.com/cyperx84/multiplan@latest
-go install github.com/cyperx84/clwatch@latest
-go install github.com/cyperx84/content-breakdown@latest
-```
-
 ---
 
 <p align="center">
-  <i>Built with OpenClaw · Powered by too many LLMs · Runs in tmux</i>
+  <i>Powered by NeoVIM, Love & Arch BTW</i>
 </p>
